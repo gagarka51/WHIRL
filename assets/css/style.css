@@ -16,7 +16,28 @@ a {
 .nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', 'sans-serif';
+    margin-top: 26px;
 }
 .nav-menu {
     display: flex;
+    font-size: 15px;
+}
+.nav-menu li a{
+    margin-right: 20px;
+    color: #33383F;
+    letter-spacing: 0.2px;
+}
+.nav-btns button:first-child {
+    border: none;
+    background: none;
+    color: #0070A0;
+    margin-right: 20px;
+}
+.nav-btns button:nth-child(2) {
+    border: none;
+    background-color: #0070A0;
+    color: #FFFFFF;
+    padding: 10px 15px;
 }
