@@ -43,4 +43,36 @@ a {
 }
 .header-block {
     margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    font-family: 'Fraunces', 'sans-serif';
+    font-size: 58px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+}
+.header-block p {
+    margin-top: 21px;
+    margin-bottom: 29px;
+    font-family: 'Inter', 'sans-serif';
+    font-size: 20px;
+    color: #1F1F1F;
+}
+.header-block_text {
+    width: 525px;
+}
+.header-block_text button {
+    border: none;
+    background-color: #0070A0;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    font-family: 'Inter', 'sans-serif';
+}
+.header-block_text a {
+    border: none;
+    background: none;
+    color: #0070A0;
+    margin-right: 20px;
+    font-family: 'Inter', 'sans-serif';
 }
