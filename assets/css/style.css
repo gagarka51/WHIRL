@@ -109,3 +109,34 @@ h1 {
     justify-content: center;
     column-gap: 60px;
 }
+.properties-block {
+    display: flex;
+}
+.property-block {
+    width: 355px;
+    padding: 32px 32px 40px 32px;
+}
+.property-block_head {
+    font-family: 'Fraunces', 'sans-serif';
+    font-size: 25px;
+    line-height: 31.25px;
+    letter-spacing: 0.2px;
+    margin-top: 8px;
+}
+.property-block_text {
+    width: 291px;
+    font-family: 'Inter', 'sans-serif';
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-top: 11px;
+}
+.property-block:first-child {
+    background-color: #FAEA73;
+}
+.property-block:nth-child(2) {
+    background-color: #CCEFF6;
+}
+.property-block:nth-child(3) {
+    background-color: #F7CEDC;
+}
