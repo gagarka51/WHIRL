@@ -141,3 +141,10 @@ h1 {
 .property-block:nth-child(3) {
     background-color: #F7CEDC;
 }
+.wrapper-block-1 {
+    margin-top: 119.61px;
+    background-color: #F7F9FA;
+}
+.wrapper-block-1 h2 {
+    margin-top: 79px;
+}
