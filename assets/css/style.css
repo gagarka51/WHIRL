@@ -71,6 +71,7 @@ h1 {
 }
 .header-block_text {
     width: 525px;
+    margin-top: 56.28px;
 }
 .header-block_text button {
     border: none;
@@ -91,4 +92,20 @@ h1 {
 }
 .header-block_text .arrow {
     vertical-align: middle;
+}
+.trust-block {
+    margin: 120px auto 160px;
+}
+.trust-block p {
+    font-family: 'Inter', 'sans-serif';
+    font-size: 24px;
+    line-height: 37.5px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+.trust-block_companies {
+    margin-top: 23.58px;
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
 }
