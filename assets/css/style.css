@@ -13,6 +13,11 @@ li {
 a {
     text-decoration: none;
 }
+.nav-left-part {
+    display: flex;
+    align-items: center;
+    gap: 0 50px;
+}
 .nav {
     display: flex;
     justify-content: space-between;
@@ -51,12 +56,17 @@ h1 {
     font-size: 58px;
     letter-spacing: 0.2px;
     color: #1F1F1F;
+    font-family: Fraunces;
+    line-height: 63.8px;
 }
 .header-block p {
+    width: 350px;
     margin-top: 21px;
     margin-bottom: 29px;
     font-family: 'Inter', 'sans-serif';
     font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
     color: #1F1F1F;
 }
 .header-block_text {
@@ -67,12 +77,18 @@ h1 {
     background-color: #0070A0;
     color: #FFFFFF;
     padding: 10px 15px;
+    font-size: 17px;
     font-family: 'Inter', 'sans-serif';
+    padding: 15px 35px;
 }
 .header-block_text a {
     border: none;
     background: none;
     color: #0070A0;
-    margin-right: 20px;
+    margin-left: 24px;
     font-family: 'Inter', 'sans-serif';
+    font-size: 17px;
+}
+.header-block_text .arrow {
+    vertical-align: middle;
 }
