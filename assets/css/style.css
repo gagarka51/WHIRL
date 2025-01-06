@@ -196,6 +196,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin-top: 120px;
+    margin-bottom: 119.61px;
 }
 .about-block h4 {
     font-family: 'Fraunces', 'sans-serif';
@@ -204,14 +205,12 @@ h1 {
     line-height: 50.4px;
     letter-spacing: 0.5px;
     margin-right: 135px;
-    margin-bottom: 119.61px;
     width: 263px;
 }
 .about_item {
     width: 222.66px;
-    padding: 62.61px 0px 16.39px 0px;
-    gap: 0px;
-    opacity: 0px;
+    padding: 0 0 16.39px 0;
+    margin-left: 32px;
 }
 .about_item_head {
     font-family: 'Fraunces', 'sans-serif';
