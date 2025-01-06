@@ -146,10 +146,14 @@ h1 {
     background-color: #F7F9FA;
 }
 .wrapper-block-1 h2 {
-    margin-top: 79px;
+    padding-top: 79px;
     font-family: 'Fraunces', 'sans-serif';
     font-size: 42px;
     line-height: 50.4px;
     letter-spacing: 0.2px;
     width: 629px;
+}
+.features-block {
+    display: flex;
+    margin-top: 61.61px;
 }
