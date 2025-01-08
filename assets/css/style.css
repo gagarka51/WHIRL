@@ -309,8 +309,17 @@ h1 {
     column-gap: 64px;
     margin-bottom: 119.64px;
 }
-.quality img {
-    margin-bottom: 8px;
+.quality:first-child img {
+    margin-bottom: 7px;
+}
+.quality:nth-child(2) img {
+    margin-bottom: 20px;
+}
+.quality:nth-child(3) img {
+    margin-bottom: 18px;
+}
+.quality:nth-child(4) img {
+    margin-bottom: 10px;
 }
 .quality_head {
     font-family: 'Fraunces', 'sans-serif';
@@ -326,4 +335,7 @@ h1 {
     line-height: 24px;
     letter-spacing: 0.2px;
     width: 235px;
+}
+.quality:nth-child(2) .quality_text, .quality:nth-child(3) .quality_text {
+    width: 250px;
 }
