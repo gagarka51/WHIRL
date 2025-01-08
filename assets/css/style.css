@@ -303,3 +303,27 @@ h1 {
     width: 643px;
     margin-bottom: 65.36px;
 }
+.qualities {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 64px;
+    margin-bottom: 119.64px;
+}
+.quality img {
+    margin-bottom: 8px;
+}
+.quality_head {
+    font-family: 'Fraunces', 'sans-serif';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    letter-spacing: 0.2px;
+    margin-bottom: 11px;
+}
+.quality_text {
+    font-family: 'Inter', 'sans-serif';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    width: 235px;
+}
