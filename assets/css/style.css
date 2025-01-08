@@ -390,7 +390,6 @@ h1 {
 }
 .characteristic_body {
     padding: 25px 0 27px 24px;
-    margin-bottom: 80.02px;
     background-color: #FFFFFF;
 }
 .characteristic_h {
@@ -409,9 +408,12 @@ h1 {
     margin: 12px 0 16px 0;
     width: 304px;
 }
-.characterisitc_date {
+.characteristic_date {
     font-family: 'Inter', 'sans-serif';
     font-size: 12px;
     line-height: 19.6px;
     letter-spacing: 0.2px;
+}
+.start-block {
+    background-color: #E6F7FF;
 }
