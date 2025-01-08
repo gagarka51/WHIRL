@@ -461,3 +461,48 @@ h1 {
     content: url('../img/li-type.svg');
     margin-right: 3px;
 }
+.footer-up-block {
+    display: flex;
+    column-gap: 16px;
+    font-family: 'Inter', 'sans-serif';
+    letter-spacing: 0.2px;
+}
+.footer-company-block {
+    font-size: 14px;
+    width: 432.8px;
+}
+.footer-company-block img {
+    margin-bottom: 20px;
+}
+.footer-company-block a {
+    color: #0070A0;
+}
+.footer-menu {
+    display: flex;
+    font-size: 13px;
+    line-height: 20px;
+    color: #626A72;
+}
+.footer-menu_left, .footer-menu_right {
+    width: 216.39px; 
+}
+.footer-menu li {
+    margin-bottom: 10px;
+}
+.footer-menu .head {
+    font-size: 15px;
+    color: #1F1F1F;
+    margin-bottom: 31px;
+}
+.footer-link {
+    width: 216.39px;
+}
+.footer-link p:first-child {
+    margin-bottom: 12px;
+}
+.footer-link p:nth-child(2) {
+    font-size: 16px;
+    line-height: 24px;
+    width: 200px;
+    margin-bottom: 14px;
+}
