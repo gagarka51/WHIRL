@@ -466,6 +466,7 @@ h1 {
     column-gap: 16px;
     font-family: 'Inter', 'sans-serif';
     letter-spacing: 0.2px;
+    margin-bottom: 64.02px;
 }
 .footer-company-block {
     font-size: 14px;
@@ -504,5 +505,36 @@ h1 {
     font-size: 16px;
     line-height: 24px;
     width: 200px;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
+}
+.footer-link input {
+    border: none;
+    border-bottom: 1px solid #C2CDD8;
+    padding: 17px 15px 7px 15px;
+}
+.footer-link button {
+    border: none;
+    background: none;
+}
+hr {
+    color: #DEE5EB;
+    margin-bottom: 35.98px;
+}
+.footer-down-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32.02px;
+}
+.footer-down-block p {
+    font-family: 'Inter', 'sans-serif';
+    font-size: 13px;
+    line-height: 19.6px;
+    letter-spacing: 0.2px;
+}
+.footer-down-block a {
+    color: #0070A0;
+}
+.footer-icons-soc {
+    display: flex;
+    column-gap: 20px;
 }
