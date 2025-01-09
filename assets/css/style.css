@@ -85,6 +85,12 @@ h1 {
     font-family: 'Inter', 'sans-serif';
     padding: 15px 35px;
 }
+.header-block_text button:hover, 
+.start-block button:hover,
+.nav-btns button:nth-child(2):hover {
+    box-shadow: 0.5px 0.5px 8px #464545;
+    transition: 0.2s;
+}
 .header-block_text a {
     border: none;
     background: none;
@@ -92,6 +98,10 @@ h1 {
     margin-left: 24px;
     font-family: 'Inter', 'sans-serif';
     font-size: 17px;
+}
+.header-block_text a:hover {
+    color: #0489c2;
+    transition: 0.2s;
 }
 .header-block_text .arrow {
     vertical-align: middle;
