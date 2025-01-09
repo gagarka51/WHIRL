@@ -34,6 +34,9 @@ a {
     color: #33383F;
     letter-spacing: 0.2px;
 }
+.nav-menu li a:hover {
+    color: #6d7988;
+}
 .nav-btns button:first-child {
     border: none;
     background: none;
@@ -155,10 +158,10 @@ h1 {
 }
 .features-block {
     display: flex;
-    margin-top: 61.61px;
     margin-bottom: 40px;
 }
 .features-accordion {
+    margin-top: 61.61px;
     margin-right: 139.17px;
 }
 .accordion_item {
@@ -184,6 +187,7 @@ h1 {
 .accordion_header_left {
     display: flex;
     align-items: center;
+    margin-bottom: 9px;
 }
 .accordion_header h3 {
     margin-left: 16px;
@@ -194,7 +198,7 @@ h1 {
     letter-spacing: 0.2px;
 }
 .accordion_body {
-    padding-top: 16px;
+    padding: 16px 0 24.89px 0;
     width: 374px;
     margin-left: 48px;
     font-family: 'Inter', 'sans-serif';
