@@ -166,10 +166,20 @@ h1 {
     padding: 17px 16px 9px 12px;
     border-top: 1px solid #C2CDD8;
 }
+.accordion_item:last-child {
+    border-bottom: 1px solid #C2CDD8;
+}
 .accordion_header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.accordion_header summary {
+    list-style-type: none;
+}
+.accordion_header summary::after {
+    content: url('../img/acc-arr.png');
+    margin: 0 0 0 auto;
 }
 .accordion_header_left {
     display: flex;
