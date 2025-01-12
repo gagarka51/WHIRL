@@ -6,5 +6,7 @@
 }
 @font-face {
     font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
     src: url('../fonts/Fraunces.ttf');
 }
